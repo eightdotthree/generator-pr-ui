@@ -1,0 +1,23 @@
+# Logs
+logs
+*.log
+
+#project files
+.idea
+
+#make sure various build artifacts are not commited to src repos
+_build
+_dist
+_docs
+_test-reports
+
+#tmp folder
+.tmp
+
+# Node Dependency directory
+# Commenting this out is preferred by some people, see
+# https://npmjs.org/doc/faq.html#Should-I-check-my-node_modules-folder-into-git
+node_modules
+
+# Bower Dependency directory
+client/components
