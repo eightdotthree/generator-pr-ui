@@ -1,7 +1,7 @@
 {
   "name": "generator-pr-ui",
   "version": "0.0.1",
-  "description": "Scoffolding for Philips Respironics UI.",
+  "description": "Scoffolding for Philips Respironics Angular UI.",
   "files": [
     "app",
     "router",
@@ -9,6 +9,7 @@
   ],
   "keywords": ["yeoman-generator"],
   "dependencies": {
-    "yeoman-generator": "^0.20.2"
+    "yeoman-generator": "^0.20.2",
+    "yosay": "1.0.4"
   }
 }
